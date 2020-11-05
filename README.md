@@ -30,24 +30,26 @@ The following tasks and questions drives the visualization and interaction decis
 
 ## Visulizations
 * [Yearly Top Genre and Artist Trend] (https://vizhub.com/bbbbrianna/f808d3c0f04043afb59628dfcc5dba1b?edit=files)
-- In the proposal, this part was designed to be visualized by stacked bar chart or pie chart. But in the finial project, I used the scatter plot of the top 20 songs in each year to show the trend of the most popular songs with regard to the top genres and artists.
+- In the proposal, this part was designed to be visualized by stacked bar chart or pie chart. But in the finial project, I used the scatter plot of the top 20 songs in each year to show the trend of the most popular songs with regard to the top genres and artists. Each specific color group can be hovered to get highlighted, and if you place your mouth over a data point of interest, it shows the title, artist and top genre of that song. 
+
+- For expamle, in 2018, people are having a special preference to dance pop, while Popularity is positively correlating with Dancibility(how fitting a song is for dancing).
 
 ![image](https://user-images.githubusercontent.com/42927474/98183649-9e252080-1ed6-11eb-92ab-0056862b4920.png)
-
-For expamle, in 2018, people are having a special preference to dance pop, while Popularity is positively correlating with Dancibility.
-
+- In 2010, Lady Gaga was so successful that she had 3 songs in the top 20 Billboard, and Valence(how musically positive a song is) has th positive relationship with Energy(a song's intensity and activity)
 ![image](https://user-images.githubusercontent.com/42927474/98184385-45568780-1ed8-11eb-8a58-aa7f2fd9c2a3.png)
-In 2010, Lady Gaga was so successful that she had 3 songs in the top 20 Billboard, and Valence(how musically positive a song is) has th positive relationship with Energy(a song's intensity and activity)
+
+* [Signature Change of the Hit Songs](https://vizhub.com/bbbbrianna/65606193ae7241e0934c568683894586)
+- As what I expected in the proposal, in this visualization, I used the line chart to show the trend of music signature in the past 10 years. The data was calucalted by Rstudio, integrating the features of hit songs(10 most popular) every year. To fairly present the statistics, I computed both the average and standard deviation of the hits in each year, and use the dot size to show the level of SD.
+
+![image](https://user-images.githubusercontent.com/42927474/98186389-a2543c80-1edc-11eb-9680-809cf44d3188.png)
+
+- To have a more clear view of each line, the hovering was designed to bold and highlight the whole line over years, as well as show the exact number of the average feature data. For instance, Energy is becoming less important in hit songs over the year, and people have their taste change towards Acousticness.
+
 
 
 
 ## Schedule of Deliverables
-### Tasks
-* Yearly Genre Trend Change
-  - Preprocess to reduct the data, such as calculate the percentage of the top genres (Oct 15)
-  - Visualize as the bar chart by the top genre, add menu to select the year (Oct 20)
-  - Tweak the attributes such as colors, size, fonts (Oct 27)
-  - emphasize the most popular genre by using high-contrast color (Oct 30)
+
 
 * Signature Change of the Hit Songs
   - Preprocess to select the top 10 songs and calculate the mean and standard deviation (Done)
