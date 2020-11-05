@@ -19,14 +19,6 @@ For a more detail, the abbreviation and the meaning is below
 | pop | Popularity |
 
 
-## Prototypes
-
-I’ve created a proof of concept visualization of this data. It's a line chart, and it shows the change of the signatures of the 10 most popular songs from 2010.
-
-![image](https://user-images.githubusercontent.com/42927474/94642438-1aae5900-02b2-11eb-8ffc-92cd4200eda9.png)(https://vizhub.com/bbbbrianna/ecd35efcf8f7432e9e3e92f7d52c2680)
-
-The data was preprocessed to calculate [the means of features from the top 10 music every year](https://gist.github.com/bbbbrianna/7472f5bf8f2bbab14a3e4411cf8869e0).
-
 ## Questions & Tasks
 
 The following tasks and questions drives the visualization and interaction decisions for this project:
@@ -39,6 +31,13 @@ The following tasks and questions drives the visualization and interaction decis
 ## Visulizations
 * [Yearly Top Genre and Artist Trend] (https://vizhub.com/bbbbrianna/f808d3c0f04043afb59628dfcc5dba1b?edit=files)
 - In the proposal, this part was designed to be visualized by stacked bar chart or pie chart. But in the finial project, I used the scatter plot of the top 20 songs in each year to show the trend of the most popular songs with regard to the top genres and artists.
+
+![image](https://user-images.githubusercontent.com/42927474/98183649-9e252080-1ed6-11eb-92ab-0056862b4920.png)
+
+For expamle, in 2018, people are having a special preference to dance pop, while Popularity is positively correlating with Dancibility.
+
+![image](https://user-images.githubusercontent.com/42927474/98184385-45568780-1ed8-11eb-8a58-aa7f2fd9c2a3.png)
+In 2010, Lady Gaga was so successful that she had 3 songs in the top 20 Billboard, and Valence(how musically positive a song is) has th positive relationship with Energy(a song's intensity and activity)
 
 
 
