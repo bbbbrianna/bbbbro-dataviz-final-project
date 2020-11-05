@@ -48,9 +48,10 @@ The following tasks and questions drives the visualization and interaction decis
 ### Dynamic Bar chart of the change of the most popular artists [(link)](https://vizhub.com/bbbbrianna/8470cfe2f0a744218cd9a447ec413f76)
 
 - This dynamic bar chart is an interactive visualization which is able to show the popularity change of artists. The slider is designed to select which year of the data, while the data is calculated by the rule of accumulating the rank points. The final score are the sum of each song's points accroding to its rank, which shoule be less biased because this method is influenced by both rank and total songs number from the billborad. 
-| Rank | 1-5 |6-10 | 11-20|21-30 | 31-40 | 41-50|51-60| >60 |
+
+| Rank | 1-5 |6-10 | 11-20|21-30 | 31-40 | 41-50 | 51-60 | >60 |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-|Score|15|10|7|5|4|3|2|1|
+| Score | 15 | 10 | 7 | 5 | 4 | 3 | 2 | 1 |
 
 ![image](https://user-images.githubusercontent.com/42927474/98187527-21e30b00-1edf-11eb-84d3-71f3d8c4c0a5.png)
 ![image](https://user-images.githubusercontent.com/42927474/98187923-0298ad80-1ee0-11eb-99db-07d0d72d0b90.png)
