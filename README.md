@@ -29,7 +29,7 @@ The following tasks and questions drives the visualization and interaction decis
  * Is there any correlation of the features of music signature?
 
 ## Visulizations
-### Yearly Top Genre and Artist Trend [link](https://vizhub.com/bbbbrianna/f808d3c0f04043afb59628dfcc5dba1b?edit=files)
+### Yearly Top Genre and Artist Trend [(link)](https://vizhub.com/bbbbrianna/f808d3c0f04043afb59628dfcc5dba1b?edit=files)
 - In the proposal, this part was designed to be visualized by stacked bar chart or pie chart. But in the finial project, I used the scatter plot of the top 20 songs in each year to show the trend of the most popular songs with regard to the top genres and artists. Each specific color group can be hovered to get highlighted, and if you place your mouth over a data point of interest, it shows the title, artist and top genre of that song. 
 
 - For expamle, in 2018, people are having a special preference to dance pop, while Popularity is positively correlating with Dancibility(how fitting a song is for dancing).
@@ -38,14 +38,14 @@ The following tasks and questions drives the visualization and interaction decis
 - In 2010, Lady Gaga was so successful that she had 3 songs in the top 20 Billboard, and Valence(how musically positive a song is) has th positive relationship with Energy(a song's intensity and activity)
 ![image](https://user-images.githubusercontent.com/42927474/98184385-45568780-1ed8-11eb-8a58-aa7f2fd9c2a3.png)
 
-### Signature Change of the Hit Songs [link](https://vizhub.com/bbbbrianna/65606193ae7241e0934c568683894586)
+### Signature Change of the Hit Songs [(link)](https://vizhub.com/bbbbrianna/65606193ae7241e0934c568683894586)
 - As what expected in the proposal, in this visualization, I used the line chart to show the trend of music signature in the past 10 years. The data was calucalted by Rstudio, integrating the features of hit songs(10 most popular) every year. To fairly present the statistics, I computed both the average and standard deviation of the hits in each year, and use the dot size to show the level of SD.
 
 ![image](https://user-images.githubusercontent.com/42927474/98186389-a2543c80-1edc-11eb-9680-809cf44d3188.png)
 
 - To have a more clear view of each line, the hovering was designed to bold and highlight the whole line over years, as well as show the exact number of the average feature data. For instance, Energy is becoming less important in hit songs over the year, and people have their taste change towards Acousticness.
 
-### Dynamic Bar chart of the change of the most popular artists [link](https://vizhub.com/bbbbrianna/8470cfe2f0a744218cd9a447ec413f76)
+### Dynamic Bar chart of the change of the most popular artists [(link)](https://vizhub.com/bbbbrianna/8470cfe2f0a744218cd9a447ec413f76)
 
 - This dynamic bar chart is an interactive visualization which is able to show the popularity change of artists. The slider is designed to select which year of the data, while the data is calculated by the rule of accumulating the rank points. The final score are the sum of each song's points accroding to its rank, which shoule be less biased because this method is influenced by both rank and total songs number from the billborad. 
 
