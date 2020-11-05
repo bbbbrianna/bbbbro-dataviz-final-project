@@ -63,12 +63,7 @@ The following tasks and questions drives the visualization and interaction decis
 - The length of music significantly drops in the hit songs after 2015. People prefer music with less time duration tha before.
 - Although the popularity of the singers depends on the ablum they release that year, some artist like Ke$ha, The Black Eyed Peas do become more silence in these years. And some young artists like Shawn Mendes and Chainsmokers are the rising stars that are becoming the new Pop kings/queens.
 
-
-## Sketches
-The following are my sketches of how the project will look like.
-* the composition of top genres overtime
-* the dynamic visualization of the most popular singers from 2010
-* the line chart shows the trend of popular music features
-![image](https://user-images.githubusercontent.com/42927474/94643299-7b3e9580-02b4-11eb-8f24-aa5bc775d949.png)
-![image](https://user-images.githubusercontent.com/42927474/94643309-81347680-02b4-11eb-9dfb-b6748d158309.png)
-
+## Future Works
+- Most of the tasks in the proposal have been done, some improvement can be done for better deliveray of information.
+1. The color range of the scatter plot can be fixed to the relevant abundance of each top genre/artist
+2. It will be more straightforward if the dynamic bar chart can have some animation of fly in&out
